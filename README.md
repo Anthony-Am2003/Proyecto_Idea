@@ -18,3 +18,17 @@ de haber elegido una opción.
 -Debe haber un usuario administrador para ingresar a un panel de control.
 -En el panel de control debo poder crear, editar y eliminar posteos.
 -Debo poder ver el detalle de cada posteo con sus estadísticas.
+
+
+Tecnologias 
+FrontEnd 
+React
+Redux
+Css modules
+
+
+backend
+Express
+Jest
+Nodemon 
+sqlize
