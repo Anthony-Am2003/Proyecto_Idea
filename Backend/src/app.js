@@ -22,7 +22,7 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use('/coderhelp', routes);
+server.use('/', routes);
 
 
 server.use((err, req, res, next) => { 
