@@ -3,10 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { HomePage } from "./pages/HomePage.tsx";
 import { LayoutPage } from "./pages/LayoutPage.tsx";
-import IModel from "./models/model.ts";
+import IModel from "./shared/models/model.ts";
 import { clientService } from "./services/service.ts";
 import { ErrorPage } from "./pages/ErrorPage.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 
 const router = createBrowserRouter([
   {

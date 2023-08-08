@@ -1,4 +1,4 @@
-import IModel from "../models/model";
+import IModel from "../shared/models/model";
 import { serviceInstance } from "./serviceInstance";
 
 export const clientService = {
